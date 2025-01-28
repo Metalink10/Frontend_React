@@ -1,0 +1,91 @@
+.container {
+    width: 450px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container h1 {
+    color: rgba(255, 255, 255);
+    text-shadow: #000 3px 3px;
+}
+
+input {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    top: 30px;
+    margin: 10px 0;
+    background: transparent;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.icon-user,
+.icon-lock {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    color: white;
+}
+
+.icon-lock {
+    top: 185px;
+}
+
+.recall-forget {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.recall-forget label {
+    margin-top: 20px;
+    color: white;
+}
+
+.recall-forget label input {
+    width:17px;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.recall-forget a,
+.signup-link p, a {
+    color: white;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-link  {
+}
+
+.signup-link, p a {
+    margin: 30px 15px;
+    font-size: 15px;
+
+}
